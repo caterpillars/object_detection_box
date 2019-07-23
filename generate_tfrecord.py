@@ -67,14 +67,12 @@ def create_tf_example(group, path, label_map):
     classes = []
 
     for index, row in group.object.iterrows():
-        print(row)
         xmins.append(row["xmin"] / width)
         xmaxs.append(row["xmax"] / width)
         ymins.append(row["ymin"] / height)
         ymaxs.append(row["ymax"] / height)
-        classes_text.append('0'+str(row["class"]))
-        class_index = label_map.get('0'+str(row["class"]))
-        print('class_index:',class_index)
+        classes_text.append(row["class"].encode("utf8"))
+        class_index = label_map.get(row["class"].encode("utf8"))
         assert (
             class_index is not None
         ), "class label: `{}` not found in label_map: {}".format(
