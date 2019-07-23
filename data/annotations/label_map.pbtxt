@@ -1,0 +1,46 @@
+item {
+    id: 1
+    name: 'Toubao'
+}
+
+item {
+    id: 2
+    name: 'LORATADINE TABLETS'
+}
+
+item {
+    id: 3
+    name: 'Runfeigao'
+}
+
+item {
+    id: 4
+    name: 'Qinghuana'
+}
+item {
+    id: 5
+    name: 'Puanle'
+}
+
+item {
+    id: 6
+    name: 'Zhengchai'
+}
+item {
+    id: 7
+    name: 'Amoxilin'
+}
+
+item {
+    id: 8
+    name: 'Vitamin B2'
+}
+item {
+    id: 9
+    name: 'Vitamin C'
+}
+
+item {
+    id: 10
+    name: 'Xinfa'
+}
