@@ -1,0 +1,26 @@
+<annotation>
+	<folder>medicine04</folder>
+	<filename>video_3_1557811684656.jpg</filename>
+	<path>/Users/glen/Desktop/labelImg/medicine04/video_3_1557811684656.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>04</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>135</xmin>
+			<ymin>255</ymin>
+			<xmax>357</xmax>
+			<ymax>406</ymax>
+		</bndbox>
+	</object>
+</annotation>
