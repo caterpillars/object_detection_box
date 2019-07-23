@@ -56,7 +56,7 @@ def xml_to_csv(path):
         tree = ET.parse(xml_file)
         root = tree.getroot()
         for member in root.findall("object"):
-            classes_names.append(member[0].text)
+            classes_names.append(class_int_to_text(member[0].text))
             value = (
                 root.find("filename").text,
                 int(root.find("size")[0].text),
